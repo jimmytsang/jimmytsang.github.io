@@ -15,29 +15,29 @@
    ================================================== -->
 
    <!-- TODO: Change this to change the label displayed at the top of the website (look at the tab!) -->
-	<title>
+   <title>
             Jimmy Website
    </title>
 
-	<!-- CSS
+   <!-- CSS
     ================================================== -->
    <!-- GOOD TO KNOW: This loads up what is known as a "stylesheet", essentially where all your CSS rules will go. The "href" attribute tells our file where to search for our stylesheets. Here it's saying "Start at where our file is located in our current folder and go into the css folder and find *.css. Then load it up."-->
    <link rel="stylesheet" href="css/default.css">
-	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/layout.css">
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
    <!-- Script
    ================================================== -->
-	<!-- GOOD TO KNOW: This does the same thing as above except it instead loads a "script". A script, in this case, is what a file with jQuery code is called. On a side note, jQuery is a Javascript library (library = a set of pre-written code that some really really smart people wrote and allowed us all to use for free) that allows you to make edits to the html elements we have on this page. jQuery is often used to make websites interactive; this is what causes the website to scroll when you click on a link or change color when you're hovering over something. This won't be covered in the context of this workshop but if you want to make your website more interactive, learning jQuery can help you out! If you want to see a simple example of how jQuery works, open up js/init.js and check it out.-->
+   <!-- GOOD TO KNOW: This does the same thing as above except it instead loads a "script". A script, in this case, is what a file with jQuery code is called. On a side note, jQuery is a Javascript library (library = a set of pre-written code that some really really smart people wrote and allowed us all to use for free) that allows you to make edits to the html elements we have on this page. jQuery is often used to make websites interactive; this is what causes the website to scroll when you click on a link or change color when you're hovering over something. This won't be covered in the context of this workshop but if you want to make your website more interactive, learning jQuery can help you out! If you want to see a simple example of how jQuery works, open up js/init.js and check it out.-->
    <script src="js/modernizr.js"></script>
 
    <!-- Favicons
-	================================================== -->
+   ================================================== -->
    <!-- TODO: Look at the image that looks like a C at the top of your webpage near the title (look at the tab name). Currently, the picture that is being stored is the same as the picture stored in the same folder that this file is stored in under the name "favicon.png" (which is why the href attribute is equal to that). You can either choose to change that href attribute to point to your own custom picture (by dropping your picture into the folder this file is located in and changing the href attribute's value to point to that), or omit this following code entirely if you don't want to use an icon. 
 
    Note: if this is not displaying for you, try using a browser like Chrome! Browsers like Safari don't show this at the top-->
-	<link rel="shortcut icon" href="favicon.png" >
+   <link rel="shortcut icon" href="favicon.png" >
 
 </head>
 
@@ -50,7 +50,7 @@
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+         <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
          <!-- TODO: The following <li class="itemAtTop"> elements are what are displayed on the top of your page. If you want to change the text that is displayed on top, simply replace the text. If you want to change which element is highlighted at the beginning, make the initially highlighted <li> element the one that has class="itemAtTop current", since this tells the CSS stylesheets to apply different rules (i.e. coloring and stuff) to only the element with this class. If you want to change which div the elements lead to when they are clicked, change the href attribute to #{the id of the div you want it linked to} (i.e. #home). If you want to create more of these, simply copy and paste the li element.-->
 
@@ -166,6 +166,10 @@
                      <i class="fa fa-linkedin"></i>
                   </a>
                </li>
+               <li>
+                  <a href="https://github.com/jimmytsang/previous-projects" target="_blank">
+                     <i class="fa fa-github"></i>
+                  </a>
             </ul>
          </div>
       </div>
@@ -223,17 +227,17 @@
                   <!-- TODO: Change text.-->
                   <p class="address">
 
-						   <span>
+                     <span>
                         Jimmy Tsang
                      </span>
 
                      <!-- GOOD TO KNOW: The <br> element tells the html to leave an empty line.-->
                      <!-- <br>
 
-						   <span>
+                     <span>
                         1600 Amphitheatre Parkway
                         <br>
-						      Mountain View, CA 94043 US
+                        Mountain View, CA 94043 US
                      </span>
 
                      <br>
@@ -241,7 +245,7 @@
 
                      <!-- TODO: Change text. Also, "mailto:" and "tel:" let the html file to automatically email or call the following email or number, so make sure to change the corresponding href attribute to follow with the number that you change! -->
                      <br>
-						   <span>
+                     <span>
                         <a href="tel:1234567890">
                            (562) 565-0351
                         </a>
@@ -254,7 +258,7 @@
                            jimmytsang@berkeley.edu
                         </a>
                      </span>
-					   </p>
+                  </p>
 
                </div>
 
@@ -323,7 +327,7 @@
                   <!-- TODO: Change text. -->
                   <p class="info">
 
-                  Major: EECS
+                  Major: Electrical Engineering & Computer Science
                      <span>
                         &bull;
                      </span> 
@@ -440,10 +444,10 @@
 
             <!-- TODO: To change the name of the skill, just change the white text within the <em> tags. To change the width of the bar displayed, simply edit the style attribute of the <span> to be "width={your percent}%"-->
 
-				<div class="bars">
+            <div class="bars">
 
-				   <ul class="skills">
-					   <li>
+               <ul class="skills">
+                  <li>
                      <em>Java</em>
                      <span style="width:80%" class="bar-expand"></span>
                   </li>
@@ -451,15 +455,15 @@
                      <em>Python</em>
                      <span style="width:70%" class="bar-expand"></span>
                   </li>
-						<li>
+                  <li>
                      <em>HTML5, CSS</em>
                      <span style="width:70%" class="bar-expand"></span>
                   </li>
-						<li>
+                  <li>
                      <em>JavaScript</em>
                      <span style="width:60%" class="bar-expand"></span>
                   </li>
-						<li>
+                  <li>
                      <em>PHP</em>
                      <span style="width:60%" class="bar-expand"></span>
                   </li>
@@ -467,11 +471,11 @@
                      <em>SQL</em>
                      <span style="width:60%" class="bar-expand"></span>
                   </li>
-					</ul>
+               </ul>
 
-				</div><!-- end skill-bars -->
+            </div><!-- end skill-bars -->
 
-			</div> <!-- main-col end -->
+         </div> <!-- main-col end -->
 
       </div> <!-- End skills -->
 
@@ -497,7 +501,11 @@
                <li><a href="#"><i class="fa fa-skype"></i></a></li>
             </ul> -->
             <ul class ="social-links">
-            <li><a href="https://www.linkedin.com/in/jimmy-ti-chieh-tsang-97362b118/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li>
+                  <a href="https://www.linkedin.com/in/jimmy-ti-chieh-tsang-97362b118/" target="_blank"><i class="fa fa-linkedin"></i></a>
+               </li>
+               <li>
+                  <a href="https://github.com/jimmytsang/previous-projects" target="_blank"><i class="fa fa-github"></i></a>
             </ul>
             <!-- GOOD TO KNOW: the &copy; is another example of an HTML Special Symbol. Search them up if you are interested!
 
